@@ -1,0 +1,28 @@
+* {
+    font-family: 'Roboto', Helvetica, sans-serif; 
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;   
+}
+
+nav {
+    color: white;
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav h2 {
+    padding: 20px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 20px;
+}
+
+ul li {
+    list-style-type: none;
+}
