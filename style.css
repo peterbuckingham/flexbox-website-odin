@@ -15,6 +15,7 @@ nav h2 {
     font-size: 24px;
     color: #f9faf8;
     padding: 20px;
+    margin-left: -60px;
 }
 
 nav ul {
@@ -127,10 +128,63 @@ main button {
 }
 
 #quotes-section p {
-    font-size: 15px;
+    font-size: 20px;
     font-weight: 700;
     color: black;
     display: flex;
     align-self: flex-end;
     padding-right: 25%;
+}
+
+/* Footer */
+
+.call-to-action {
+    background-color: #3882f6;     
+    color: #e5e7eb;                  
+    display: flex;                   /
+    justify-content: center;         
+    padding: 50px;                  
+    margin: 100px 300px;            
+    border-radius: 10px;            
+}
+
+.call-to-action-contents {
+    display: flex;                   
+    flex-direction: column;          /* Stack heading and paragraph vertically */
+    align-items: flex-start;         
+    text-align: left;                
+    flex-grow: 1;                    /* Allow the content to grow and take available space */
+}
+
+.call-to-action-contents h4 {
+    color: #e5e7eb;                  
+    font-weight: 800;                
+    margin: 0;                     
+}
+
+.call-to-action p {
+    color: #e5e7eb;                 
+    font-weight: 500;                
+    margin: 0;                       
+}
+
+.call-to-action button {
+    color: #e5e7eb;
+    font-size: 15px;
+    font-weight: 600;
+    margin-left: auto;
+    background-color: #3882f6;
+    border: 1px solid #e5e7eb;    
+    border-radius: 10px;
+    padding: 10px 30px;       
+}
+
+
+.footer {
+    background-color: #1F2937;
+    padding: 40px;
+    color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
